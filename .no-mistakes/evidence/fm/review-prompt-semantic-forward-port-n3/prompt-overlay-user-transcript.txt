@@ -1,0 +1,36 @@
+$ git rev-list --parents -n 1 95d810ee991953755299bba2ab822a4a685e531d
+95d810ee991953755299bba2ab822a4a685e531d bdae21ed09d2cca4f57caed4bda9d30d8f9d9be8
+
+$ bin/fm-instructions.sh list
+operational-home
+dispatch
+recovery
+project-knowledge
+task-lifecycle
+backlog
+briefing
+
+$ bin/fm-instructions.sh operational-home | head -8
+# Firstmate deferred instructions: operational-home
+
+This agent-runtime bundle is the current conditional authority for the instructions below.
+Load it deterministically with `bin/fm-instructions.sh operational-home` before the matching action.
+The live block is rebuilt from the pinned upstream semantic baseline; superseded exact bytes are historical provenance and are not instruction authority.
+See [prompt-disclosure verification](docs/verification/prompt-disclosure.md) and the upstream-reconciliation manifest for lineage and maintained checks.
+
+<!-- Current authoritative upstream-derived block starts on the next line. -->
+
+$ bin/fm-instructions.sh verify
+ok generated briefs ship/scout/secondmate
+ok generated supervision all primary harness identities and fallbacks
+ok generated operational launch wrapper
+ok normalized hook configuration semantics
+PASS preservation: 286 changed/removed physical lines, 7 verbatim bundles, 7 live triggers, 13 local links
+
+$ verify candidate overlay inventory and unrelated workflow inheritance
+candidate=95d810ee991953755299bba2ab822a4a685e531d
+upstream=bdae21ed09d2cca4f57caed4bda9d30d8f9d9be8
+sole_parent=bdae21ed09d2cca4f57caed4bda9d30d8f9d9be8
+all_candidate_paths_registered=True
+compact_description_owners=19
+unrelated_workflow_changed_by_overlay=False
